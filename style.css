@@ -123,6 +123,21 @@ section + section { margin-top: 44px; }
   color: var(--accent);
   margin-top: 10px;
 }
+.coauthors {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14.5px;
+  font-style: italic;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+h2.section-head {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0 0 4px;
+  letter-spacing: 0.02em;
+}
 
 @media (max-width: 520px) {
   .entry { grid-template-columns: 1fr; }
